@@ -1,6 +1,6 @@
 $(function(){
     $("button").click(function () {
-      $("p").slideToggle();
+      $(this).siblings('p').slideToggle();
     });
   });
   
