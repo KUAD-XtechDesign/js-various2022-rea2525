@@ -1,5 +1,5 @@
 button {
-  width: 40%;
+  width: 30%;
   padding:0;
   margin:0;
   background:none;
@@ -11,15 +11,18 @@ button {
 }
 
 .food{
+  width: 70%;
+}
 
-  width: 100%;
-
+.bottom_space {
+  line-height: 15em;
 }
 
   
-  p{
-    text-align:center;
+  .p1{
+    text-align:cr;
     bottom: center;
+    display: none
   }
   
   div { text-align : center ;
