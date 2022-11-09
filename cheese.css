@@ -20,12 +20,35 @@ button {
 
   
   .p1{
+
     text-align:cr;
-    bottom: center;
+    text-size-adjust: 16px;
     display: none
   }
   
   div { text-align : center ;
   }
   
+@font-face {
+  font-family: 'KiwiMaru';
+  font-style: normal;
+  src: url(./fonts/KiwiMaru-Regular.ttf) format('truetype');
+}
+
+body{
+  font-family:"KiwiMaru"
+}
+
+.bg_scroll {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./images/background.png);
+  background-position: center center;
+  background-size: cover;
+  background-size: contain;
+}
 
