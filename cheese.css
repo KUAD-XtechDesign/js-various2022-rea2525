@@ -56,7 +56,10 @@ button {
     position: absolute;
     top: 6%;
     width: 100%;
-    text-align: center;
+    
+  }
+  h1 span{
+    margin-right: -0.2em;
   }
 
   h2{
@@ -65,6 +68,9 @@ button {
     color: rgb(246, 184, 42)
 
   }
+  h2 span{
+    margin-right: -0.3em;
+  }
 
   h3{
     font-size: 1.5vw;
@@ -72,11 +78,17 @@ button {
     letter-spacing: 1em;
     line-height: 4em;
   }
+  h3 span{
+    margin-right: -1em;
+  }
 
   h4{
     font-size: 3vw;
     letter-spacing: 0.3em;
     color: rgb(246, 184, 42)
+  }
+  h4 span{
+    margin-right: -0.3em;
   }
 
   p{
@@ -84,6 +96,9 @@ button {
     color: rgb(199, 165, 128);
     letter-spacing: 0.8em;
     line-height: 1.4em;
+  }
+  p span{
+    margin-right: -0.8em;
   }
 
   
@@ -93,6 +108,9 @@ button {
     letter-spacing: 1em;
     line-height: 3em;
     display: none
+  }
+  .p1 span{
+    margin-right: -1em;
   }
   
   div { text-align : center ;
@@ -110,28 +128,40 @@ button {
 }
 
 
-.last img{
+img[src="./images/cheese2.png"]{
   width: 100%;
   vertical-align: bottom;
 }
 
 .p2{
   font-size: 1.8vw;
-  letter-spacing: 0.2em;
   color: rgb(102, 57, 6);
   position: absolute;
   top: 50%;
   width: 100%;
   letter-spacing: 0.8em;
   line-height: 1.4em;
-  text-align: center;
   
+  
+}
+.p2 span{
+  margin-right: -0.8em;
+}
+
+h5{
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  
+  
+
 }
 
 body{
   font-family:"KiwiMaru"
 
 }
+
 
 .bg_scroll {
   position: fixed;
